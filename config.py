@@ -1,0 +1,8 @@
+WEBHOOK_PASSPHRASE = "asdfgqskfgm32421sdf"
+
+API_KEY = ""
+API_SECRET = ""
+
+TELEGRAM_TOKEN = ""
+TELEGRAM_CHAT_ID = 
+

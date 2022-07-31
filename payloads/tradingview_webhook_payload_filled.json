@@ -1,0 +1,27 @@
+{
+    "passphrase": "asdfgqskfgm32421sdf",
+    "time": "2022-04-01T05:12:01Z",
+    "exchange": "BINANCE",
+    "ticker": "ETHUSDT",
+    "leverage": 12,
+    "margin" : 120,
+    "bar": {
+        "time": "2022-04-01T05:12:00Z",
+        "open": 3255.3,
+        "high": 3255.3,
+        "low": 3255.3,
+        "close": 3255.3,
+        "volume": 0
+    },
+    "strategy": {
+        "position_size": 1.3785,
+        "order_action": "buy",
+        "order_contracts": 0.6141,
+        "order_price": 1188,
+        "order_id": "Long",
+        "market_position": "long",
+        "market_position_size": 1.3785,
+        "prev_market_position": "flat",
+        "prev_market_position_size": 0.7644
+    }
+}
