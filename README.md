@@ -11,5 +11,5 @@ https://www.youtube.com/watch?v=gMRee2srpe8
 https://api.telegram.org/bot{bot_token}/setWebhook?url={url}
 
 ## Get Telegram Chat ID
-https://api.telegram.org/bot<bot token>/getUpdates
+https://api.telegram.org/bot{bot token}/getUpdates
 

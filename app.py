@@ -462,7 +462,7 @@ def telegram_callback(bot, update):
 				walletBalance = round(float(get_futures_order_response["assets"][i]["walletBalance"]), 2)
 				totalRevenue = round(float(walletBalance - initialCapital), 2)
 				totalPercent = round(float((totalRevenue / initialCapital) * 100), 2)
-				tmp_text = f"【 Performance - Strat From {startDate} 】\n-\nInitial Capital: ${str(initialCapital)}\nWallet Balance: ${str(walletBalance)}\nTotal Revenue: ${str(totalRevenue)} ({str(totalPercent)}%)\n"
+				tmp_text = f"【 Performance - Start From {startDate} 】\n-\nInitial Capital: ${str(initialCapital)}\nWallet Balance: ${str(walletBalance)}\nTotal Revenue: ${str(totalRevenue)} ({str(totalPercent)}%)\n"
 
 		bot.message.reply_text(text=tmp_text)
 
